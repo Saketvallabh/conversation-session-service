@@ -25,32 +25,29 @@ Backend Take-Home Assignment built with **NestJS + MongoDB**.
 ## Setup Instructions
 
 ### 1. Clone / unzip project
-
 ```bash
-cd conversation-session-service
+    cd conversation-session-service
 
 2. Install dependencies
-npm install
+    npm install
 
 3. Create environment file
-cp .env.example .env
+    cp .env.example .env
 
-Make sure .env contains:
+    Make sure .env contains:
 
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/conversation-service
+    PORT=3000
+    MONGODB_URI=mongodb://localhost:27017/conversation-service
 
 
 4. Start MongoDB using Docker
-docker compose up -d
+    docker compose up -d
 
 
 5. Run the application
-npm run start:dev
+    npm run start:dev
 
-If successful, the server will run on:
-
-http://localhost:3000
+If successful, the server will run on: http://localhost:3000
 
 Running Tests
-npm test
+    npm test

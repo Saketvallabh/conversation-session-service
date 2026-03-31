@@ -91,7 +91,6 @@ optimizes fetching events for a session ordered by timestamp
 supports efficient pagination in GET /sessions/:sessionId
 
 
-
 4. How would you scale this system for millions of sessions per day?
 
 If the system needed to support millions of sessions per day, I would scale it in the following ways:
@@ -117,8 +116,6 @@ dead-letter handling
 stronger operational monitoring
 
 For this assignment, I intentionally kept the implementation simple, synchronous, and aligned with the stated constraints.
-
-
 
 5. What did you intentionally keep out of scope, and why?
 
@@ -154,7 +151,7 @@ existing sessions are returned as-is instead of being updated during repeated se
 
 ---
 
-## 
+## What to do now
 
 Open:
 
